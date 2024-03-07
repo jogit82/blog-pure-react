@@ -13,3 +13,7 @@
 ### fetch
 
 - With proper error handling
+
+### custom hooks
+
+- created a reusable custom useFetch hook to fetch different endpoint
