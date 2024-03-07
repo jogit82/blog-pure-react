@@ -10,13 +10,13 @@
       "title": "My Blog Entry 2",
       "body": "Blog entry 2 example content...",
       "author": "yoshi",
-      "id": 1
+      "id": 2
     },
     {
       "title": "My Blog Entry 3",
       "body": "Blog entry 3 example content...",
       "author": "mario",
-      "id": 1
+      "id": 3
     }
   ]
 }
