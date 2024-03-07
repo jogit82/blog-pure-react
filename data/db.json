@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My Blog Entry 1",
+      "body": "Blog entry 1 example content...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "My Blog Entry 2",
+      "body": "Blog entry 2 example content...",
+      "author": "yoshi",
+      "id": 1
+    },
+    {
+      "title": "My Blog Entry 3",
+      "body": "Blog entry 3 example content...",
+      "author": "mario",
+      "id": 1
+    }
+  ]
+}
