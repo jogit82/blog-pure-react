@@ -24,3 +24,9 @@
 
 - react-router-dom@5 uses Switch
 - Uses { BrowserRouter, Route, Switch, Link } from react-router-dom
+
+\*\*\* Memory leak: navigate to another route using Router while external data is still being fetched in useEffect, will end with a browser warning. When a user navigate to another 'page' while the previous page is still doing its thing asynchronously, once it was done doing it, it tries to update the component, which is no longer there, since we navigated to another route. The exact error:
+
+Error: Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscription and asynchronous tasks in a useEffect cleanup function.
+
+- That is what we did exactly with our custom useFetch hook, using a cleanup function. AbortController will stop the fetch. And throw an AbortError.
