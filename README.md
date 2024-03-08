@@ -53,4 +53,8 @@ Error: Warning: Can't perform a React state update on an unmounted component. Th
 
 ### Redirects
 
-- useHistory hook: forward (history.go(1)), back (history.go(-1)) and redirect ()
+- useHistory hook: forward (history.go(1)), back (history.go(-1)) and redirect (history.push('/'))
+
+### Delete blog post
+
+- reusing useFetch hook to DELETE a blog post
