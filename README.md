@@ -30,3 +30,7 @@
 Error: Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscription and asynchronous tasks in a useEffect cleanup function.
 
 - That is what we did exactly with our custom useFetch hook, using a cleanup function. AbortController will stop the fetch. And throw an AbortError.
+
+### Route parameters
+
+- Getting parameters from route and used it in the return template.
