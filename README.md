@@ -50,3 +50,7 @@ Error: Warning: Can't perform a React state update on an unmounted component. Th
 
 - create the submit object
 - fetch POST and handle loading status
+
+### Redirects
+
+- useHistory hook: forward (history.go(1)), back (history.go(-1)) and redirect ()
