@@ -6,7 +6,7 @@ const Create = () => {
   const [author, setAuthor] = useState("mario");
 
   return (
-    <div>
+    <div className="create">
       <h2>Add a blog</h2>
       <label>Title:</label>
       <input
