@@ -45,3 +45,7 @@ Error: Warning: Can't perform a React state update on an unmounted component. Th
 - to make a form
 - controlled inputs (values are tracked) stored in states and update the input (in-sync).
 - useState to keep track of the value, use value = {state value} to sync on the front end
+
+### Submit events
+
+- create the submit object
