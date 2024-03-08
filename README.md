@@ -34,3 +34,8 @@ Error: Warning: Can't perform a React state update on an unmounted component. Th
 ### Route parameters
 
 - Getting parameters from route and used it in the return template.
+
+### Reusing custom hooks
+
+- FIrst use case was to fetch all blog posts. And we have made this useFetch hook to be reusable.
+- Second use case: fetch a specific blog with an id.
