@@ -49,3 +49,4 @@ Error: Warning: Can't perform a React state update on an unmounted component. Th
 ### Submit events
 
 - create the submit object
+- fetch POST and handle loading status

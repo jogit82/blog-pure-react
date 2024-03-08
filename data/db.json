@@ -4,19 +4,55 @@
       "title": "My Blog Entry 1",
       "body": "Blog entry 1 example content...",
       "author": "mario",
-      "id": 1
+      "id": "1"
     },
     {
       "title": "My Blog Entry 2",
       "body": "Blog entry 2 example content...",
       "author": "yoshi",
-      "id": 2
+      "id": "2"
     },
     {
       "title": "My Blog Entry 3",
       "body": "Blog entry 3 example content...",
       "author": "mario",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "f845",
+      "title": "blog about Mandy",
+      "body": "mandy is a dog",
+      "author": "mario"
+    },
+    {
+      "id": "d60e",
+      "title": "blog about Mandy",
+      "body": "mandy is a dog",
+      "author": "mario"
+    },
+    {
+      "id": "1438",
+      "title": "blog about Mandy",
+      "body": "mandy is a dog",
+      "author": "mario"
+    },
+    {
+      "id": "b659",
+      "title": "blog about Mandy",
+      "body": "mandy is a dog",
+      "author": "mario"
+    },
+    {
+      "id": "64e3",
+      "title": "sdfdsf",
+      "body": "sdfsdf",
+      "author": "yoshi"
+    },
+    {
+      "id": "7271",
+      "title": "sdfdsf",
+      "body": "sdfsdf",
+      "author": "yoshi"
     }
   ]
 }
